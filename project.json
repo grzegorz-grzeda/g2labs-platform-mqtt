@@ -2,5 +2,9 @@
     "libraries": [
         "g2labs-platform",
         "g2labs-log"
+    ],
+    "preconditions": [
+        "git submodule init",
+        "git submodule update --recursive"
     ]
 }

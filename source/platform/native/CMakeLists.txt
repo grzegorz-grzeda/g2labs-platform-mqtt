@@ -29,7 +29,7 @@ set(PAHO_WITH_SSL TRUE CACHE BOOL "Flag that defines whether to build ssl-enable
 set(PAHO_ENABLE_TESTING FALSE CACHE BOOL "Disable testing paho.mqtt.c" FORCE)
 set(PAHO_BUILD_SHARED FALSE CACHE BOOL "Don't build shared version of paho.mqtt.c" FORCE)
 set(PAHO_BUILD_STATIC TRUE CACHE BOOL "Build only static version of paho.mqtt.c" FORCE)
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/mqtt_client)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/paho-mqtt)
 target_link_libraries(${PROJECT_NAME}
     paho-mqtt3cs-static
 )
