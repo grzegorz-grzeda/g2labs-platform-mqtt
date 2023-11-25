@@ -1,0 +1,6 @@
+{
+    "libraries": [
+        "g2labs-platform",
+        "g2labs-log"
+    ]
+}
